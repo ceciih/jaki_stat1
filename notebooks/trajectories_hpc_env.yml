@@ -1,0 +1,48 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.11
+- scanpy
+- jupyterlab
+- notebook
+- matplotlib
+- seaborn
+- numpy
+- pandas
+- scikit-learn
+- scipy
+- numba
+- h5py
+- anndata
+- networkx
+- joblib
+- llvmlite
+- statsmodels
+- igraph
+- pygobject
+- pip
+- compilers
+- cmake
+- pkg-config
+- pip:
+  - leidenalg
+  - cellrank==2.0.7
+  - pygpcca==1.0.4
+  - scvelo==0.3.3
+  - session-info2
+  - docrep
+  - loompy
+  - tqdm
+  - pynndescent
+  - umap-learn
+  - natsort
+  - pygam
+  - cycler
+  - kiwisolver
+  - python-utils
+  - click
+  - jinja2
+  - pillow
+  - patsy
+  - wrapt
+name: trajectories_hpc_full
